@@ -1,0 +1,36 @@
+:root {
+    --color-background: #222222;
+    --color-background-shadow: #4a4a4a;
+    --color-dark: #1F232A;
+    --color-text: #efefef;
+    --color-bar: #1a1a1a;
+    --color-textdark: #777474;
+    --color-button: #404040;
+    --color-icon: #E1E1E1;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--color-dark) var(--color-background-shadow);
+	color: var(--color-text) !important;
+}
+.content, .legal-footer, .buttons-container, .popover-view .cw-popover-content, .atv4.settings, .notice-view {
+    background-color: var(--color-background) !important;
+}
+.atv4.mail {
+    background-color: var(--color-background) !important;
+	background-image: inherit !important;
+}
+.popover-view .cw-popover-arrow.cw-up-arrow {
+    background-image: url("blob:https://www.icloud.com/93eb723e-92d7-4f67-ab19-1d1107b2d26c") !important;
+}
+.account-settings-link-view .link-button:not(.showing-spinner) > .symbol-view > svg {
+    fill: var(--color-icon) !important;
+}
+iframe body {
+	background-color: var(--color-background) !important;
+}
+.notice-view {
+    border-bottom: inherit !important;
+    border-block-end: inherit !important;
+}
