@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Whatsapp logo" src="https://i.imgur.com/kEWcVIf.png" width="250px" />
+    <img alt="iCloud logo" src="https://i.imgur.com/kEWcVIf.png" width="250px" />
 </h1>
 
 <h4 align="center">
