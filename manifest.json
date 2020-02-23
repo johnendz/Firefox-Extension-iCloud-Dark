@@ -7,10 +7,10 @@
 
   "content_scripts": [
     {
-      "matches": ["*://www.icloud.com/*"],
+      "matches": ["*://www.icloud.com/*", "*://idmsa.apple.com/*", "*://appleid.apple.com/*"],
       "css":["style.css"],
-      "js": ["jquery.min.js", "script.js"],
-      "run_at": "document_start"
+      "run_at": "document_start",
+      "all_frames": true
     }
   ],
   
