@@ -3,12 +3,12 @@
   "manifest_version": 2,
   "name": "iCloud Dark",
   "author": "Johnendz",
-  "version": "1.1",
+  "version": "1.2",
 
   "content_scripts": [
     {
-      "matches": ["*://www.icloud.com/*", "*://idmsa.apple.com/*", "*://appleid.apple.com/*"],
-      "exclude_matches": ["*://www.icloud.com/applications/contacts/*", "*://www.icloud.com/applications/calendar/*", "*://www.icloud.com/applications/photos/*", "*://www.icloud.com/applications/iclouddrive/*", "*://www.icloud.com/applications/notes3/*", "*://www.icloud.com/applications/reminders2/*", "*://www.icloud.com/applications/pages/*", "*://www.icloud.com/applications/numbers/*", "*://www.icloud.com/applications/keynote/*", "*://www.icloud.com/applications/fmf/*", "*://www.icloud.com/applications/find/*"],
+      "matches": ["*://www.icloud.com/*", "*://idmsa.apple.com/*", "*://appleid.apple.com/*", "*://www.icloud.com/applications/*"],
+      "exclude_matches": ["*://www.icloud.com/applications/calendar/*", "*://www.icloud.com/applications/photos/*", "*://www.icloud.com/applications/iclouddrive/*", "*://www.icloud.com/applications/notes3/*", "*://www.icloud.com/applications/reminders2/*", "*://www.icloud.com/applications/pages/*", "*://www.icloud.com/applications/numbers/*", "*://www.icloud.com/applications/keynote/*", "*://www.icloud.com/applications/fmf/*", "*://www.icloud.com/applications/find/*"],
       "css":["style.css"],
       "run_at": "document_start",
       "all_frames": true
