@@ -8,27 +8,27 @@
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: var(--color-dark) var(--color-background-shadow);
+    scrollbar-color: var(--color-background-black) var(--color-background-shadow);
 }
-.content, .legal-footer, .buttons-container, .popover-view .cw-popover-content, .atv4.settings, .notice-view, .atv4.sc-pane.sc-panel::before, .prefs-theme, .dr-root, .recoverable-document-item.odd, .dr-restore-docs-workspace-view .footer, .atv4.mail .dock .toolbar-separator-right, .message-list .message-list-scroll-thumb, .message-list .message-list-footer, .messages .message-list .column-header, .mail .messages .search-pane-view, .message-list, .message-list .message, .view.message .header-view-text-button.right, .apple-theme-v4 .vip-welcome-overlay, .preferences-panel .preferences .sc-container-view.sc-well-view, .preferences .pref-bottom-wrapper, .atv4.dropdown.button, .atv4.contacts.sc1619.sc-view.sc-collection-view.sc-list-view, .atv4.contacts.sc1619.sc-view.detail-container {
+.content, .legal-footer, .buttons-container, .popover-view .cw-popover-content, .atv4.settings, .notice-view, .atv4.sc-pane.sc-panel::before, .prefs-theme, .dr-root, .recoverable-document-item.odd, .dr-restore-docs-workspace-view .footer, .atv4.mail .dock .toolbar-separator-right, .message-list .message-list-scroll-thumb, .message-list .message-list-footer, .messages .message-list .column-header, .mail .messages .search-pane-view, .message-list, .message-list .message, .view.message .header-view-text-button.right, .apple-theme-v4 .vip-welcome-overlay, .preferences-panel .preferences .sc-container-view.sc-well-view, .preferences .pref-bottom-wrapper, .atv4.dropdown.button, .atv4.contacts.sc1619.sc-view.sc-collection-view.sc-list-view, .atv4.contacts.sc1619.sc-view.detail-container, .contacts.contact-list-container, .atv4.preferences, .message.compose .compose-header, .message .compose-header .contact-picker, .mini-address-book-search.sc-text-field-view.search-text, .apple-theme-v4 .address-list, .atv4.sc-view.sc-text-field-view.compose-subject.text-field {
     background-color: var(--color-background) !important;
 }
-.atv4.mail, .button-secondary, .messages .message-list .column-header {
+.atv4.mail, .button-secondary, .messages .message-list .column-header, body.mce-content-body {
     background: var(--color-background) !important;
 }
-.form-textbox, .form-dropdown, .atv4.cw-menu .sc-menu-item.focus .menu-item, .sc-text-field-view, .message-list-search.search-view, .contact-details .contact-details-body .notes-field-view {
+.form-textbox, .form-dropdown, .atv4.cw-menu .sc-menu-item.focus .menu-item, .message-list-search.search-view, .contact-details .contact-details-body .notes-field-view, .atv4.sc-menu .sc-menu-item.focus .menu-item, .ck-token-item input, .ck-token-item textarea, .apple-theme-v4 .contacts .stripe {
     background: var(--color-background-shadow) !important;
 }
-.form-textbox::placeholder, .message-list .message .subject, .message-list .message .sender, .header-view-subject, .view.message .header-view-subject, .view.message .recipient-names, .mail .folder-list.sc-source-list .sc-list-item-view label, .atv4.cw-menu .sc-menu-item .value, .preferences-panel .preferences .sc-checkbox-view .label, .atv4.dropdown.button .sc-button-label, .atv4.sc-text-field-view input, .list-unsubscribe-preview-container .list-unsubscribe-preview .list-unsubscribe-preview-spacer .list-unsubscribe-preview-text, .app-switcher-item-view .app-switcher-item-content .icon-name, .atv4.settings .summary-general .name, .atv4.settings .summary-general .title, .summary .titlebar .title, .summary .family-member .title, .dr-root-header > .info > .title, .dr-root-header > .info > .description, .recoverable-document-item .details > .primary .title, .dr-root-header > .sort-action-menu > .title, .cw-menu-arrow-popover-view .cw-popover-content .cw-menu-list-view .menu-item-view .title, .dr-root > .disclaimer .label, .recoverable-document-item .details > .primary > .size, .DAV-recovery .DAV-list-item-view .DAV-title, .DAV-status-view > .container .message, .ck-bookmark-recovery .ck-bookmark-list-item-view .title, .greeting-label, .scalable-app-switcher-item-view > .title-label, .cw-alert .alert-text-container .message, .cw-alert .alert-text-container .description, .widget-container .si-container-title, .widget-container .si-remember-password label[for="remember-me"], .widget-container input[type="password"], .widget-container input[type="tel"], .widget-container input[type="text"], .legal-footer-content > span .copyright, .legal-footer-content > span a, .widget .flow-title h1, .widget .intro, .form-choice:checked ~ .form-choice-selector-label .form-label, .form-choice:checked ~ .form-label, .form-dropdown, .widget-container .si-button .icon_sign_in, .contacts .sources .focus .sc-collection-item.sel .source-label, .contacts .sources .source-label, .contacts.sticky-header-scroll-view.contact-list .headered-list-header .header-title, .contacts.sticky-header-scroll-view.contact-list .headered-list-view .contact-list-item label, .view.message .disclosure-header-names, .atv4.sc-label-view, .contact-details .contact-details-body .detail-row a, .atv4.sc-label-view, .contact-details .contact-details-body .notes-field-view div.notes-text-field .field, .contact-details .contact-details-body .detail-field.sc-label-view {
+.form-textbox::placeholder, .message-list .message .subject, .message-list .message .sender, .header-view-subject, .view.message .header-view-subject, .view.message .recipient-names, .mail .folder-list.sc-source-list .sc-list-item-view label, .atv4.cw-menu .sc-menu-item .value, .preferences-panel .preferences .sc-checkbox-view .label, .atv4.dropdown.button .sc-button-label, .atv4.sc-text-field-view input, .list-unsubscribe-preview-container .list-unsubscribe-preview .list-unsubscribe-preview-spacer .list-unsubscribe-preview-text, .app-switcher-item-view .app-switcher-item-content .icon-name, .atv4.settings .summary-general .name, .atv4.settings .summary-general .title, .summary .titlebar .title, .summary .family-member .title, .dr-root-header > .info > .title, .dr-root-header > .info > .description, .recoverable-document-item .details > .primary .title, .dr-root-header > .sort-action-menu > .title, .cw-menu-arrow-popover-view .cw-popover-content .cw-menu-list-view .menu-item-view .title, .dr-root > .disclaimer .label, .recoverable-document-item .details > .primary > .size, .DAV-recovery .DAV-list-item-view .DAV-title, .DAV-status-view > .container .message, .ck-bookmark-recovery .ck-bookmark-list-item-view .title, .greeting-label, .scalable-app-switcher-item-view > .title-label, .cw-alert .alert-text-container .message, .cw-alert .alert-text-container .description, .widget-container .si-container-title, .widget-container .si-remember-password label[for="remember-me"], .widget-container input[type="password"], .widget-container input[type="tel"], .widget-container input[type="text"], .legal-footer-content > span .copyright, .legal-footer-content > span a, .widget .flow-title h1, .widget .intro, .form-choice:checked ~ .form-choice-selector-label .form-label, .form-choice:checked ~ .form-label, .form-dropdown, .widget-container .si-button .icon_sign_in, .contacts .sources .focus .sc-collection-item.sel .source-label, .contacts .sources .source-label, .contacts.sticky-header-scroll-view.contact-list .headered-list-header .header-title, .contacts.sticky-header-scroll-view.contact-list .headered-list-view .contact-list-item label, .view.message .disclosure-header-names, .atv4.sc-label-view, .contact-details .contact-details-body .detail-row a, .atv4.sc-label-view, .contact-details .contact-details-body .notes-field-view div.notes-text-field .field, .contact-details .contact-details-body .detail-field.sc-label-view, .contacts .app-view .empty-list .empty-label-container > div .no-contact-label, .atv4.sc-menu .sc-menu-item .menu-item, .ck-token-item input, .ck-token-item textarea, .mini-address-book-search .sc-text-field-view.search-text.sc-regular-size input.field, .sc-menu.ck-ac-menu .sc-menu-item.ck-ac-menu-item .value.primary-label, .sc-menu.ck-ac-menu .sc-menu-item.ck-ac-menu-item .secondary-label, body.mce-content-body *, .popover-with-button-list-content-view .cw-label-view {
     color: var(--color-text) !important;
 }
 .view.message .disclosure-header-names, .atv4.sc-label-view {
     color: gray !important;
 }
-.widget .flow-body, .widget .flow-header, .widget .idms-step-footer, .base-modal-arrow-popover-view .cw-popover-view .cw-popover-content, .atv4.mail .dock .left-wrapper, .atv4.mail .dock .toolbar-container, .atv4.mail .dock .compose-container, .atv4.mail .dock .app-switcher-container, .atv4.split-divider > .line, .apple-theme-v4 .top-left-view .refresh-button-container, .message .list-unsubscribe-banner .sc-button-view.unsubscribe-button.button-in-between.bar-after::after, .atv4.mail .dock .toolbar-separator-left, .cw-modal-dialog, .modal-create-account-view, .atv4.sc-segmented-view .segment.sc-segment-view.sel {
+.widget .flow-body, .widget .flow-header, .widget .idms-step-footer, .base-modal-arrow-popover-view .cw-popover-view .cw-popover-content, .atv4.mail .dock .left-wrapper, .atv4.mail .dock .toolbar-container, .atv4.mail .dock .compose-container, .atv4.mail .dock .app-switcher-container, .atv4.split-divider > .line, .apple-theme-v4 .top-left-view .refresh-button-container, .message .list-unsubscribe-banner .sc-button-view.unsubscribe-button.button-in-between.bar-after::after, .atv4.mail .dock .toolbar-separator-left, .cw-modal-dialog, .modal-create-account-view, .atv4.sc-segmented-view .segment.sc-segment-view.sel, .message .toolbar, .compose .toolbar {
     background: var(--color-background-black) !important;
 }
-.summary .storage-chart .item:last-child, .summary .family-member .placeholder, .message-list .message-list-footer .filters-button, .mail.sc-main .sc-view .sc-view.left.source-list, .cw-popover-view:not(.cw-autocomplete-menu), .contacts .app-view .left-view .toolbar, .contacts .sources, .bottom-view, .contacts .app-view .center-view .toolbar, .atv4.contacts.sc1619.sc-view.toolbar, .contacts.sticky-header-scroll-view.contact-list .headered-list-header {
+.summary .storage-chart .item:last-child, .summary .family-member .placeholder, .message-list .message-list-footer .filters-button, .mail.sc-main .sc-view .sc-view.left.source-list, .cw-popover-view:not(.cw-autocomplete-menu), .contacts .app-view .left-view .toolbar, .contacts .sources, .bottom-view, .contacts .app-view .center-view .toolbar, .atv4.contacts.sc1619.sc-view.toolbar, .contacts.sticky-header-scroll-view.contact-list .headered-list-header, .contacts .column-header {
     background-color: var(--color-background-black) !important;
 }
 .message-list .message-list-footer, .messages .message-list .column-header, .messages .message-list .column-header .switch-header, .apple-theme-v4 .top-left-view .refresh-button-container, .message-list .message.sel, .preferences .pref-bottom-wrapper, .contacts.sticky-header-scroll-view.contact-list .headered-list-view .headered-list-item.sel, .contacts.sticky-header-scroll-view.contact-list .headered-list-view .contact-list-item {
@@ -37,7 +37,7 @@
 .apple-theme-v4 .mail .sc-source-list.folder-list .sc-list-item-view.sel, .apple-theme-v4 .mail .sc-source-list.folder-list .sc-list-item-view.drop-zone, .contacts .sources .focus .sc-collection-item.sel .item-border, .contacts .sources .sc-collection-item.sel .item-border, .contacts.sticky-header-scroll-view.contact-list .headered-list-view .headered-list-item.sel {
     background: #2d3544 !important;
 }
-.apple-theme-v4 .mail .sc-source-list.folder-list .sc-list-item-view::after, .apple-theme-v4 .mail .sc-source-list.folder-list .sc-list-item-view::before, .messages .message-list .sc-collection-view .message::after, .atv4.sc-pane.sc-picker .sc-pointer, .preferences-panel .preferences .sc-container-view.sc-well-view .preferences-tab .horizontal-separator, .prefs-theme.segmented .segment.sc-first-segment::after, .prefs-theme.segmented .segment.sc-middle-segment::after, .base-modal-arrow-popover-view .cw-popover-view > .cw-popover-arrow.cw-down-arrow, .base-modal-arrow-popover-view .cw-popover-view > .cw-popover-arrow.cw-up-arrow {
+.apple-theme-v4 .mail .sc-source-list.folder-list .sc-list-item-view::after, .apple-theme-v4 .mail .sc-source-list.folder-list .sc-list-item-view::before, .messages .message-list .sc-collection-view .message::after, .atv4.sc-pane.sc-picker .sc-pointer, .preferences-panel .preferences .sc-container-view.sc-well-view .preferences-tab .horizontal-separator, .prefs-theme.segmented .segment.sc-first-segment::after, .prefs-theme.segmented .segment.sc-middle-segment::after, .base-modal-arrow-popover-view .cw-popover-view > .cw-popover-arrow.cw-down-arrow, .base-modal-arrow-popover-view .cw-popover-view > .cw-popover-arrow.cw-up-arrow, .atv4.contacts.sc1619.sc-view.index-container.left {
     display: none !important;
 }
 .apple-theme-v4 .top-left-view .refresh-button-container, .contacts.sticky-header-scroll-view.contact-list .headered-list-view .contact-list-item {
@@ -70,6 +70,15 @@
     top: 11px !important;
     height: 20px !important;
 }
+.contacts .app-view .center-view .toolbar .search-bar .search-icon {
+    background-image: url('https://i.imgur.com/fPdRUDb.png') !important;
+    background-position: inherit !important;
+    background-repeat: inherit !important;
+    left: 10px !important;
+    width: 20px !important;
+    top: 7px !important;
+    height: 20px !important;
+}
 .contacts .sources .sc-collection-item-sel .item-border {
     border-bottom: 1px solid #c5c5c5 !important;
 }
@@ -79,6 +88,34 @@
 .atv4.sc-text-field-view {
     border-radius: 10px;
 }
-.contact-details .contact-details-body .detail-row a:hover, .contact-details .contact-details-body .detail-row .address-view:hover a, .contact-details .contact-details-body .detail-row .address-view:hover .detail-field {
+.contact-details .contact-details-body .detail-row a:hover, .contact-details .contact-details-body .detail-row .address-view:hover a, .contact-details .contact-details-body .detail-row .address-view:hover .detail-field, .atv4.borderless.sc-button-view.button.active .sc-button-label {
     color: #007aff !important;
+}
+.contacts .app-view .add-icon {
+    background-image: url('https://i.imgur.com/vCusrvA.png') !important;
+    background-position: inherit !important;
+    background-repeat: inherit !important;
+    width: 30px !important;
+    height: 30px !important;
+}
+.atv4.contacts.addbutton-menu {
+    width: 30px !important;
+    margin-top: -23px !important;
+}
+.contacts .app-view .actions {
+    background-image: url('https://i.imgur.com/ecZGz2M.png') !important;
+    background-position: inherit !important;
+    background-repeat: inherit !important;
+    width: 25px !important;
+    height: 25px !important;
+}
+.atv4.contacts.actions-menu {
+    width: 25px !important;
+}
+.contacts .sc-menu-item .shortcut .delete {
+    background-image: url('https://i.imgur.com/RRJ7hu3.png') !important;
+    background-position: inherit !important;
+    background-repeat: inherit !important;
+    width: 16px !important;
+    height: 13px !important;
 }
